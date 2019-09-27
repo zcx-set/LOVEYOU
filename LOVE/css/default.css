@@ -1,0 +1,124 @@
+﻿body{
+	margin:0;
+	padding:0;
+	background:#000;
+	font-size:12px;
+	overflow:hidden;
+	}
+#mainDiv{
+	width:100%;
+	padding:0;
+	height:650px;
+	margin-top:40px;
+	position: absolute;
+	}
+#loveHeart{
+	float:left;
+	width:100%;
+	height:625px;
+	}
+#garden{
+	width:100%;
+	height:100%;
+	}
+#elapseClock{
+	text-align:center;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+#words{
+	position: relative;
+	font-family:"sans-serif";
+	width:50%;
+	font-size:26px;
+	color:#9900cc;
+	margin-left:14%;
+	}
+#messages{
+	display:none
+	}
+#elapseClock .digit{
+	font-family:"digit";
+	font-size:36px;
+	}
+#loveu{
+	padding:5px;
+	font-size:22px;
+	margin-top:10%;
+	margin-right:16%;
+	text-align:right;
+	display:none;
+	background-image: -webkit-linear-gradient(left, #ff9966, #9900cc); 
+	-webkit-background-clip:text; 
+	-webkit-text-fill-color:transparent;
+	}
+#loveu .signature{
+	margin-top:10px;
+	font-size:30px;
+	font-style:italic;
+	}
+.head{
+	margin: 0;
+	height: 500px;
+	width: 100%;
+}
+.headtext{
+	height: 450px;
+	width: 70%;
+	margin:0px;
+	padding: 0;
+	font-size: 35px;
+	margin-left: 99px;
+	background-image: -webkit-linear-gradient(left, #ff9966, #9900cc); 
+	-webkit-background-clip:text; 
+	-webkit-text-fill-color:transparent;
+}
+.foot{
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	margin-top:730px;
+}
+.foottext1,
+.foottext2{
+	height: 85px;
+	width: 70%;
+	margin:0px;
+	padding: 0;
+	font-size: 50px;
+	margin-bottom: 10px;
+	background-image: -webkit-linear-gradient(left, #ff9966, #9900cc); 
+	-webkit-background-clip:text; 
+	-webkit-text-fill-color:transparent;
+}
+.foottext1{
+	margin-left: 30%;
+}
+.foottext2{
+	margin-left: 45%;
+}
+.snowfall-flakes:before,.snowfall-flakes:after{
+	content:"";
+	position:absolute;
+	width:60px;
+	height:96px;
+	background-color:red;
+	border-radius:30px 30px 0 0;
+	}
+.snowfall-flakes:before{
+	transform:rotate(-45deg);/*旋转*/
+	}
+.snowfall-flakes:after{
+	transform:translateX(24px) rotate(45deg);
+	}
+#heart1{
+	margin-left: 999px;
+}
+
+
+
+		
+	
+	
+	
